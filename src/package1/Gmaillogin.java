@@ -37,7 +37,7 @@ public class Gmaillogin {
 	 
 	public void login()
 	{
-		email.sendKeys("mahananda.provab@gmail.com");
+		email.sendKeys("mahananda.provab@gmail.com");//this message need to send
 		next.click();
 		pass.sendKeys("Provab@2017");
 		next.click();
